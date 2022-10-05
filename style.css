@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    height: 100%;
+}
+
+.title {
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid;
+    border-color: rgb(162, 0, 255);
+    padding: 8px 8px 8px 51px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-name {
+    color: rgb(236, 225, 225);
+}
+
+.autor {
+    color: rgb(184, 184, 184);
+    padding-right: 8px;
+
+}
+
+.header {
+    background-color: rgb(44, 44, 44);
+    color: rgb(184, 184, 184);
+    font-weight: 700;
+    margin: 0px;
+    padding: 8px;
+    max-height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
