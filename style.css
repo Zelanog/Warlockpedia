@@ -92,13 +92,42 @@ a:link {
     padding: 8px 60px 8px 60px;
 }
 
+.titlebox {
+    max-width: 1710px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
 .titles {
-    padding-left: 60px;
+    padding-left: 5px;
     padding-bottom: 2px;
     border-bottom: solid rgb(162, 0, 255) 1px;
+}
+
+li {
+    padding-bottom: 10px
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 40px;
 }
 
 .introduction {
     margin: 0 auto;
     max-width: 2000px;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.pink {
+    color: rgb(253, 31, 253);
 }
